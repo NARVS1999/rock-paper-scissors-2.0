@@ -24,7 +24,15 @@ function game() {
     }
 
     function playRound(playerSelection, computerSelection) {
+        
+        if(playerSelection === null) {
+            return "Your input is empty";
+        }
+
         playerSelection = playerSelection.toLowerCase();
+
+        
+
         switch(true) {
             case playerSelection === 'paper' && computerSelection === 'Rock':
                 ++playerScore;
