@@ -1,0 +1,64 @@
+* {
+    /* border: 2px dotted red; */
+    padding: 0;
+    margin: 0 ;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button-style {
+    margin-top: 50px;
+    border: 3px solid  #bdb176;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #817136;
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.button-style:hover {
+    transform: scale(1.2);
+    border-color: lawngreen;
+    box-shadow: 0 0 20px lawngreen;
+}
+
+.container {
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-image: url('image/newspaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 10px grey;
+}
+
+img {
+    width: auto;
+    height: 250px;
+    display: block;
+    border-radius: 5px;
+}
+
+.text-style {
+    background-color: #c6bf8e;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px grey;
+}
+
