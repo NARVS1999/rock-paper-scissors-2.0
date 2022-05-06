@@ -5,6 +5,8 @@
 
 <img src="image/rock-paper-scissors.drawio.png" width="900px">
 
+# Demo: https://narvs1999.github.io/rock-paper-scissors-2.0/
+
 ## PC View
 
 <img src="image/desktop-layout.PNG" width="900px">
