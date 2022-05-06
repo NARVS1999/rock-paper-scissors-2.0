@@ -127,6 +127,9 @@ function selectRock() {
     let playerSelection = 'rock';
     message.textContent = playRound(playerSelection, computerSelection);
     score.textContent = `YOUR SCORE: ${playerScore} | COMPUTER SCORE: ${computerScore}`;
+
+    message.classList.toggle("rotate");
+
     if(playerScore === 5 || computerScore === 5) {
         restartGame();
     }
@@ -137,6 +140,9 @@ function selectPaper() {
     let playerSelection = 'paper';
     message.textContent = playRound(playerSelection, computerSelection);
     score.textContent = `YOUR SCORE: ${playerScore} | COMPUTER SCORE: ${computerScore}`;
+
+    message.classList.toggle("rotate");
+
     if(playerScore === 5 || computerScore === 5) {
         restartGame();
     }
@@ -147,6 +153,9 @@ function selectScissors() {
     let playerSelection = 'scissors';
     message.textContent = playRound(playerSelection, computerSelection);
     score.textContent = `YOUR SCORE: ${playerScore} | COMPUTER SCORE: ${computerScore}`;
+
+    message.classList.toggle("rotate");
+
     if(playerScore === 5 || computerScore === 5) {
         restartGame();
     }  
